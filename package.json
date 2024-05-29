@@ -1,0 +1,32 @@
+{
+  "name": "ologger",
+  "version": "1.0.0",
+  "description": "A lightweight logger library for Vue.js and React applications.",
+  "main": "dist/OLogger.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src/OLogger.js -o dist/OLogger.js"
+  },
+  "keywords": [
+    "logger",
+    "logging",
+    "vue",
+    "react"
+  ],
+  "author": "Nebyat Bekele",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nebyat19/ologger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nebyat19/ologger/issues"
+  },
+  "homepage": "https://github.com/nebyat19/ologger#readme"
+}
